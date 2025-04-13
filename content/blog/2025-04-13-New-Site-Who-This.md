@@ -90,6 +90,7 @@ With the v0 of the site now up and running, there are always improvements to be 
 - [ ] Add a search bar to the blog
 - [ ] Add a daily/weekly updates section to the blog
 - [ ] Create a Github workflow to automate the website build, sync, and invalidation after a commit to the `main` branch
+- [ ] Improve the aesthetics a bit. I have a background style in mind but wasn't able to create the correct SVG images so far. Could be a good eval for LLMs lol.
 - [ ] Add a comments section to the blog posts
 - [ ] Update/improve the [about page](/about) page
 - [ ] Add Google Analytics to the website
