@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%" opacity="0.15">
+  <!-- Hill -->
+  <path d="M0,800 C300,700 600,650 1200,750 L1200,800 L0,800 Z" fill="#333333"/>
+  
+  <!-- Robot 1 - Meditating -->
+  <g transform="translate(400, 650)">
+    <!-- Body -->
+    <rect x="-30" y="-60" width="60" height="80" rx="5" fill="none" stroke="#b0b0b0" stroke-width="3"/>
+    <!-- Head -->
+    <rect x="-25" y="-95" width="50" height="40" rx="5" fill="none" stroke="#b0b0b0" stroke-width="3"/>
+    <!-- Eyes -->
+    <circle cx="-10" cy="-80" r="4" fill="#b0b0b0"/>
+    <circle cx="10" cy="-80" r="4" fill="#b0b0b0"/>
+    <!-- Antenna -->
+    <line x1="0" y1="-95" x2="0" y2="-110" stroke="#b0b0b0" stroke-width="3"/>
+    <circle cx="0" cy="-115" r="5" fill="none" stroke="#b0b0b0" stroke-width="2"/>
+    <!-- Legs (crossed) -->
+    <path d="M-30,-10 C-50,20 0,30 30,-10" fill="none" stroke="#b0b0b0" stroke-width="3"/>
+    <!-- Arms (meditation pose) -->
+    <path d="M-30,-40 C-55,-30 -55,0 -30,10" fill="none" stroke="#b0b0b0" stroke-width="3"/>
+    <path d="M30,-40 C55,-30 55,0 30,10" fill="none" stroke="#b0b0b0" stroke-width="3"/>
+  </g>
+  
+  <!-- Robot 2 - Climbing -->
+  <g transform="translate(700, 680)">
+    <!-- Body -->
+    <rect x="-25" y="-50" width="50" height="70" rx="5" fill="none" stroke="#b0b0b0" stroke-width="3" transform="rotate(-15)"/>
+    <!-- Head -->
+    <rect x="-20" y="-80" width="40" height="35" rx="5" fill="none" stroke="#b0b0b0" stroke-width="3" transform="rotate(-15)"/>
+    <!-- Eyes -->
+    <circle cx="-8" cy="-65" r="3" fill="#b0b0b0" transform="rotate(-15)"/>
+    <circle cx="8" cy="-65" r="3" fill="#b0b0b0" transform="rotate(-15)"/>
+    <!-- Antenna -->
+    <line x1="0" y1="-80" x2="5" y2="-95" stroke="#b0b0b0" stroke-width="3" transform="rotate(-15)"/>
+    <circle cx="7" cy="-100" r="4" fill="none" stroke="#b0b0b0" stroke-width="2" transform="rotate(-15)"/>
+    <!-- Legs (climbing position) -->
+    <path d="M-20,15 L-40,40" fill="none" stroke="#b0b0b0" stroke-width="3" transform="rotate(-15)"/>
+    <path d="M20,5 L25,30" fill="none" stroke="#b0b0b0" stroke-width="3" transform="rotate(-15)"/>
+    <!-- Arms (climbing position) -->
+    <path d="M-20,-30 L-45,-15" fill="none" stroke="#b0b0b0" stroke-width="3" transform="rotate(-15)"/>
+    <path d="M20,-30 L35,0" fill="none" stroke="#b0b0b0" stroke-width="3" transform="rotate(-15)"/>
+  </g>
+  
+  <!-- Subtle circuit pattern background -->
+  <g stroke="#444444" stroke-width="1" opacity="0.3">
+    <path d="M100,100 L300,100 L300,300 L500,300" fill="none"/>
+    <path d="M800,200 L1000,200 L1000,400" fill="none"/>
+    <path d="M200,500 L200,700 L400,700" fill="none"/>
+    <path d="M700,600 L900,600 L900,400 L1100,400" fill="none"/>
+    <circle cx="300" cy="100" r="5" fill="none"/>
+    <circle cx="300" cy="300" r="5" fill="none"/>
+    <circle cx="500" cy="300" r="5" fill="none"/>
+    <circle cx="1000" cy="200" r="5" fill="none"/>
+    <circle cx="1000" cy="400" r="5" fill="none"/>
+    <circle cx="200" cy="700" r="5" fill="none"/>
+    <circle cx="400" cy="700" r="5" fill="none"/>
+    <circle cx="900" cy="600" r="5" fill="none"/>
+    <circle cx="900" cy="400" r="5" fill="none"/>
+    <circle cx="1100" cy="400" r="5" fill="none"/>
+  </g>
+  
+  <!-- Subtle Om symbol -->
+  <path d="M900,200 C920,180 930,160 930,140 C930,100 900,80 870,80 C830,80 800,120 820,150 C830,165 850,170 870,160 C890,150 890,120 870,110 C860,105 850,110 850,120 C850,125 855,130 860,130 C865,130 870,125 870,120 C870,115 865,110 860,110 M820,150 C810,170 810,200 820,220 C830,240 850,250 880,250 C920,250 950,220 950,180 C950,150 940,120 920,100" fill="none" stroke="#b0b0b0" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Subtle binary code background -->
+  <g fill="#444444" opacity="0.15" font-family="monospace" font-size="10">
+    <text x="100" y="400">01001101 01100101 01100100 01101001 01110100 01100001 01110100 01100101</text>
+    <text x="800" y="300">01001100 01100101 01100001 01110010 01101110</text>
+    <text x="300" y="600">01000001 01001001</text>
+    <text x="500" y="200">01001101 01101001 01101110 01100100</text>
+  </g>
+</svg> 

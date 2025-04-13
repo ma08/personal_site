@@ -1,0 +1,6 @@
+public/
+.env
+.DS_Store
+.hugo_build.lock
+cv_sourya_kakarla.tex
+ngrok.yml

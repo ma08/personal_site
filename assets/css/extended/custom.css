@@ -1,0 +1,54 @@
+/* Import Lora font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* Set Lora as the default font for the body */
+body {
+    font-family: 'Lora', serif;
+    background-image: url('/images/background-light.svg'); /* Default/Light mode */
+    background-size: cover; /* Cover the entire page */
+    background-attachment: fixed; /* Keep the background fixed during scroll */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+body.dark {
+    background-image: url('/images/background-dark.svg'); /* Dark mode */
+}
+
+/* Optional: Add some transparency/subtleness if needed */
+/* You might need to wrap your main content in a container and apply background color to it */
+/* body {
+    background-color: rgba(255, 255, 255, 0.8); /* Light mode background color with opacity * /
+}
+
+body.dark {
+     background-color: rgba(0, 0, 0, 0.8); /* Dark mode background color with opacity * /
+} */
+
+/* Ensure content is readable over the background */
+/* Adjust text colors if necessary, or add a semi-transparent overlay to the content area */
+
+/* Example for content area if you wrap it */
+/* .main-content-wrapper {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque white background for light mode * /
+    padding: 20px;
+    border-radius: 8px;
+}
+
+body.dark .main-content-wrapper {
+    background-color: rgba(25, 25, 25, 0.9); /* Slightly opaque dark background for dark mode * /
+    color: #ccc; /* Adjust text color for dark mode if needed * /
+} */ 
+
+.profile .profile_inner span a {
+    text-decoration: underline; /* Add underline */
+    /* Optional: Uncomment the line below to give the link a different color */
+    /* color: #your-preferred-color; */ 
+}
+
+/* Optional: Add hover effect */
+.profile .profile_inner span a:hover {
+    text-decoration: none; /* Remove underline on hover */
+    /* Optional: Uncomment the line below to change color on hover */
+    /* color: #your-preferred-hover-color; */
+}

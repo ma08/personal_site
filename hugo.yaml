@@ -1,0 +1,76 @@
+baseURL: https://sourya.co
+languageCode: en-us
+title: Sourya Kakarla
+theme: ["PaperMod"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  env: production
+  author: Sourya Kakarla
+  profileMode:
+    enabled: true
+    title: "Sourya Kakarla"
+    subtitle: "Co-Founder & CTO at [Ladduu AI](https://ladduu.com)"
+    imageUrl: "/images/profile.jpg"
+    imageWidth: 180
+    imageHeight: 180
+    buttons:
+      - name: About
+        url: "/about"
+      - name: Blog
+        url: "/blog"
+      - name: Demos
+        url: "/demos"
+
+  homeInfoParams:
+    Title: "Sourya Kakarla - AI/ML Engineer"
+    Content: >
+
+  socialIcons:
+    - name: X
+      url: "https://x.com/curious_queue"
+    - name: LinkedIn
+      url: "https://linkedin.com/in/sourya-k"
+    - name: GitHub
+      url: "https://github.com/ma08"
+    - name: GoogleScholar
+      url: "https://sourya.page.link/scholar"
+    - name: Email
+      url: "mailto:sourya.kakarla@columbia.edu"
+
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: false
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: true
+  ShowToc: true
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about
+      weight: 20
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 30
+    - identifier: demos
+      name: Demos
+      url: /demos
+      weight: 40
+    - identifier: resume
+      name: Resume
+      url: /resume
+      weight: 50
