@@ -52,7 +52,7 @@ I chose `hugo` because I am indeed a markdown purist and like minimalistic frame
 I had an issue with the first build failing due to a fresh `papermod` bug and was able to resolve it by making a [small change](https://github.com/adityatelange/hugo-PaperMod/commit/7153bb83f5bbe22e1746ec2d7f8e54d566e6ccfb) in the `papermod` theme thanks to [this comment](https://github.com/adityatelange/hugo-PaperMod/issues/1719#issuecomment-2797327929).
 
 ### Hosting
-I am waiting for my application for Vercel for Startups to be processed (a perk through ODF). Therefore, I went ahead with AWS S3 + CloudFront as I had some AWS credits to spare (also thanks to ODF). Claude was terrific in helping me set up the AWS infrastructure and write [the bash script](https://github.com/ma08/personal_site/blob/1d162d8abc1dd1bf3723814ca166aab9f7aa2c2a/scripts/deploy-to-s3.sh) for the `S3` bucket sync and `CloudFront` invalidation. It was a breeze to setup the infra when compared to the last time I had to do something like this before LLMs were a thing.
+I am waiting for my application for Vercel for Startups to be processed (a perk through ODF). Therefore, I went ahead with AWS S3 + CloudFront as I had some AWS credits to spare (also thanks to ODF). Claude was terrific in helping me set up the AWS infrastructure and write [the bash script](https://github.com/ma08/personal_site/blob/main/scripts/deploy-to-s3.sh) for the `S3` bucket sync and `CloudFront` invalidation. It was a breeze to setup the infra when compared to the last time I had to do something like this before LLMs were a thing.
 
 ```bash
 #!/bin/bash
