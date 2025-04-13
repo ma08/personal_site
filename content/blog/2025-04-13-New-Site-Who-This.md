@@ -9,7 +9,7 @@ I'm Sourya and you can read more about me [here](/about). Welcome to the inaugur
 ## Posting-Paralysis
 I've had posting-paralysis for years - my last blog post was in 2022, and before that, 2017. I've been scribbling in Google Docs, Notion, and tweeting occasionally. Visiting SF for ODF24 rekindled my hacker spirit to tinker and ship quickly.
 
-ODF's weekly updates culture inspired my Daily Updates doc, helping me release the writing handbrake (as Arsene Wenger would say). I've realized writing+posting parallels building+shipping.
+ODF's weekly updates culture inspired my Daily Updates doc, helping me release the writing handbrake (as [Arsene Wenger would say](https://www.perplexity.ai/search/arsene-wenger-playing-with-han-euY760zwTMC0qdf0uT.1XA)). I've realized writing+posting parallels building+shipping.
 
 {{< figure src="/images/wenger-handbrake.jpg" alt="handbrake" width="50%" align="center" class="responsive-image">}}
 
