@@ -1,0 +1,4 @@
+{
+    "buildCommand": "chmod +x ./scripts/vercel-build.sh && ./scripts/vercel-build.sh",
+    "outputDirectory": "public"
+}
