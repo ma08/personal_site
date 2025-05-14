@@ -8,6 +8,11 @@ Best to refer to the [PaperMod documentation](https://github.com/adityatelange/h
 
 I use a fork of the PaperMod theme with some customizations (mainly to fix some bugs and custom features); you can find the fork [here](https://github.com/ma08/hugo-PaperMod). You can look at the [diff/commits](https://github.com/adityatelange/hugo-PaperMod/compare/master...ma08:hugo-PaperMod:master) to see the changes I made.
 
+
+1. Start ngrok: `./scripts/run-ngrok.sh`
+2. Start Hugo server: `./scripts/run-local.sh`
+
+
 ## Scratchpad for Useful Commands
 
 ### Remove public folder from version control and force push
