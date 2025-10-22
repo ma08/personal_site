@@ -3,6 +3,10 @@ languageCode: en-us
 title: Sourya Kakarla
 theme: ["PaperMod"]
 
+services:
+  googleAnalytics:
+    ID: "G-45KYXH8KQX"
+
 markup:
   goldmark:
     renderer:
@@ -14,7 +18,7 @@ params:
   profileMode:
     enabled: true
     title: "Sourya Kakarla"
-    subtitle: "Co-Founder & CTO at [Ladduu AI](https://ladduu.com)"
+    subtitle: "Co-Founder & CTO at [Zone](https://trymyzone.com)"
     imageUrl: "/images/profile.jpg"
     imageWidth: 180
     imageHeight: 180
@@ -41,6 +45,10 @@ params:
       url: "https://sourya.page.link/scholar"
     - name: Email
       url: "mailto:sourya.kakarla@columbia.edu"
+
+  analytics:
+    google:
+      SiteVerificationTag: "G-45KYXH8KQX"
 
   defaultTheme: auto
   disableThemeToggle: false
@@ -74,3 +82,4 @@ menu:
       name: Resume
       url: /resume
       weight: 50
+

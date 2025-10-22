@@ -9,25 +9,38 @@ showReadingTime: false
 
 ## Hi, I'm Sourya Kakarla
 
-I'm an applied AI/ML researcher and founder building intelligent systems that enhance human lives. As Co-founder and CTO of Ladduu AI, I'm reimagining elder care through digital intelligence and robotic assistance.
+I'm an AI/ML engineer and founder building holistic consumer experiences. As Co-founder of [Zone](https://trymyzone.com), I'm reimagining how messaging platforms can automatically understand context and complete tasks for you, going beyond simple to-do lists to actually getting work done.
 
-With degrees from IIT Kharagpur and Columbia University, and hands-on experience at Microsoft, I've built strong expertise in Speech Recognition, NLP, and human-centered AI design. I combine academic knowledge with practical skills to create solutions that actually work for people. I thrive at the intersection of theoretical research and practical application, turning algorithms into solutions people can actually use and benefit from in their daily lives.
+Life has made me go through quite a number of twists and turns that took me from big tech to dropping out of PhD to finally finding my grove at startups. Designing agent orchestration and eval systems for real world agents that can go beyond cool demos. I have a [research background](https://scholar.google.com/citations?user=iW7jiUcAAAAJ) in Speech&NLP and InfoSec. Alum of IIT Kharagpur and Columbia University.
 
-I'm currently wrapping up my role as Founding ML Engineer at Skylink (YC W22) in May 2025, where I've led our ML team developing AI-powered corporate travel solutions. Building agent orchestration and eval systems for a real-world AI product that actually works has been immensely satisfying. Stay tuned for our flagship customer announcement!
+After leading the AI/ML team at Skylink (YC W22) where we built a slack agent for [corporate travel bookings for McKinsey](https://www.mckinsey.com/about-us/new-at-mckinsey-blog/flying-higher-the-ai-upgrade-simplifying-mckinsey-travel), I'm now focused on bringing ambient agentic experience to consumer messaging :)
 
 You can view my full resume [here](/resume/).
 
-## Ladduu AI
+## Founding Journey
 
-At Ladduu AI, we're building agents and robots to care for senior citizens.
-- Created multilingual voice and chat assistants designed specifically for seniors to:
-  - Navigate the digital world with ease, accomplishing tasks like *refilling prescriptions, ordering cabs, groceries, and other essential services*
-  - Maintain meaningful social connections
-- While currently in R&D phase, we are also excited to deliver robots for physical assistance soon!
+### Zone Text
 
-Current products include:
-- A WhatsApp assistant supporting 8+ Indian languages that has reached over 3,000 users.
-- An iOS voice assistant enabling essential services through natural conversation.
+Zone is an AI-native messaging platform that solves the problem of actionable items getting lost in long chats. Unlike WhatsApp or iMessage, Zone embeds ambient intelligence to proactively handle reminders, take notes, segment lists, schedule meetings, and more understanding context and taking the right actions like a skilled executive assistant would. Messaging reimagined for the AGI era.
+
+Visit us at [trymyzone.com](https://trymyzone.com/)
+
+### The Journey from Ladduu AI to Zone
+
+We started with Ladduu AI, focused on helping seniors and their families through:
+- Multilingual voice and chat assistants for navigating digital services
+- WhatsApp assistant supporting 8+ Indian languages (reached 5,000+ users)
+- iOS voice assistant for essential services
+
+Through this journey, we discovered something profound: the real value wasn't just in helping individuals complete tasks, but in enhancing human-to-human communication. This insight led us to pivot to Zone - bringing ambient AI agents to everyone's messaging experience, where tasks are understood and executed automatically while you focus on what matters: connecting with people.
+
+## Work Experience
+
+### Skylink (YC W22)
+Joined as Founding ML Engineer and led the ML team at SkyLink. Designed and built agent orchestration and evals systems. 
+### Microsoft
+Working as Software Engineer in bigtech successfully instilled a deep existential crisis and triggered a depression arch that guided me towards research and startups.
+
 
 ## Research Interests
 - Large Language Models (LLMs) and Agentic AI
@@ -37,6 +50,52 @@ Current products include:
 - Cryptography & Information Security
 
 I [published papers](https://scholar.google.com/citations?user=iW7jiUcAAAAJ&hl=en&oi=ao) in reputable conferences and journals, focusing on applied NLP and cryptanalysis. My work has been recognized with awards such as the Best Paper at ASONAM 2016 Conference.
+ 
+## Publications
+
+View my [Google Scholar profile](https://scholar.google.com/citations?user=iW7jiUcAAAAJ) for the most up-to-date list of publications.
+
+### Journal Articles & Preprints
+
+1. [**Looney Tunes: Exposing the Lack of DRM Protection in Indian Music Streaming Services**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iW7jiUcAAAAJ&citation_for_view=iW7jiUcAAAAJ:zYLM7Y9cAGgC)
+   - Ahaan Dabholkar, **Sourya Kakarla**, Dhiman Saha
+   - Arxiv Pre-print (In Review)
+
+2. [**DINAMITE: Internal Differential Match-in-the-end Attack on 8-round PAEQ**](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-ifs.2018.5033)
+   - Dhiman Saha, **Sourya Kakarla**, Dipanwita Roy Chowdhury
+   - IET Information Security (2019)
+
+3. [**Gain: Practical Key-Recovery Attacks on Round-reduced PAEQ**](https://link.springer.com/article/10.1007/s41635-017-0010-5)
+   - Dhiman Saha, **Sourya Kakarla**, Srinath Mandava, Dipanwita Roy Chowdhury
+   - Journal of Hardware and Systems Security (HaSS 2017)
+
+### Conference Proceedings
+
+1. [**On the practical implementation of impossible differential cryptanalysis on reduced-round AES**](https://link.springer.com/chapter/10.1007/978-981-10-5421-1_6)
+   - **Sourya Kakarla**, Srinath Mandava, Dhiman Saha, Dipanwita Roy Chowdhury
+   - International Conference on Applications and Techniques in Information Security (ATIS 2017)
+
+2. [**Gain: Practical Key-Recovery Attacks on Round-reduced PAEQ**](https://link.springer.com/chapter/10.1007/978-3-319-49445-6_11)
+   - Dhiman Saha, **Sourya Kakarla**, Srinath Mandava, Dipanwita Roy Chowdhury
+   - Security, Privacy, and Applied Cryptography Engineering (SPACE 2016)
+
+3. [**Stop clickbait: Detecting and preventing clickbaits in online news media**](https://ieeexplore.ieee.org/abstract/document/7752207)
+   - Abhijnan Chakraborty, Bhargavi Paranjape, **Sourya Kakarla**, Niloy Ganguly
+   - Advances in Social Networks Analysis and Mining (ASONAM 2016)
+   - Best Paper Award
+
+## Awards
+
+- [Andrew P. Kosoresow Memorial Award for Excellence in Teaching and Service, Columbia University](https://www.cs.columbia.edu/26-2023-graduation-sourya-kakarla/) (2023)
+- [Invention recognized by Columbia Tech Ventures: Employment Insights Dashboard](https://inventions.techventures.columbia.edu/technologies/industry-specific--CU22330) (2022)
+- Nominated for Prime Minister's Research Fellows: Selected for final round (placed in top 6 CS students) (2020)
+- Nominated for Best Master's Thesis: Cryptanalysis of AES and AES based ciphers, IIT Kharagpur (2017)
+- [National media coverage: IIT team builds solution that weeds out 'clickbait' headlines](https://web.archive.org/web/20201108142627/https://www.thehindu.com/sci-tech/technology/IIT-team-builds-solution-that-weeds-out-%E2%80%98clickbait%E2%80%99-headlines/article16437688.ece) (2016)
+- [Best Paper, ASONAM 2016 Conference: Stop Clickbait paper](https://dl.acm.org/doi/proceedings/10.5555/3192424?tocHeading=heading1#heading1) (2016)
+- [Winner, IBM DAY 2016 - IIT Kharagpur exhibition/contest](https://cse.iitkgp.ac.in/conf/IBM/#winners) (2016)
+- Winner, Microsoft's Code.Fun.Do Finalist Forum nationwide hackathon, India (2015)
+- Winner, Microsoft's Code.Fun.Do hackathon, IIT Kharagpur chapter (2015)
+- Runner-up, IBM's Global Entrepreneurship Summit hackathon, IIT Kharagpur (2015)
 ## Musings
 
 ### Reading
@@ -76,7 +135,9 @@ Once I got the startup bug, I read a few of the typical startup books:
 - Outliers
 
 #### Currently Reading
-Currently (April 2025), I am reading [The Beginning of Infinity](https://www.goodreads.com/book/show/10483171-the-beginning-of-infinity) by David Deutsch thanks to my wife who bought the book after seeing Naval Ravikant rave about it.
+Finished [The Beginning of Infinity](https://www.goodreads.com/book/show/10483171-the-beginning-of-infinity) by David Deutsch - a mind-expanding exploration of explanations and progress.
+
+Currently reading [Steve Jobs](https://www.goodreads.com/book/show/11084145-steve-jobs) by Walter Isaacson - diving into the story of building magical consumer products that changed the world.
 
 Jotted down some of my reads in [goodreads](https://www.goodreads.com/user/show/181795910-sourya-kakarla). TODO: Update it.
 
@@ -104,4 +165,3 @@ Holy Nature - My favorite among all my amateur work got featured in [Poets of Co
 - Arsenal fan, 'Gooner/Gunner' for life!
 - Receiving Gold Medal through MS Hall in IIT KGP General Championship is a highlight of my soccer life.
 - FIFA is pretty much the only video game I ever played consistantly. Always up for a game if time permits.
-

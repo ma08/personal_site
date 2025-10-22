@@ -30,26 +30,37 @@ Navigate to different sections or explore related pages:
 
 ## Summary
 
-AI/ML Engineer with expertise in:
+AI/ML Engineer and founder building magical consumer experiences through ambient intelligence. Currently Co-founder at Zone, creating messaging platform that automatically understands and completes tasks.
 
-- **Large Language Models (LLMs)**: Agent orchestration systems, evals, finetuning.
-- **Natural Language Processing**: Text analysis, multilingual systems, conversational interfaces
+Core expertise:
+- **Large Language Models (LLMs)**: Ambient AI agents, orchestration systems, evals
+- **Consumer AI Products**: Building delightful experiences that feel like magic
+- **Natural Language Processing**: Multilingual systems, conversational interfaces
 - **Speech Recognition**: Voice assistants, ASR systems, acoustic modeling
-- **Cryptography & Security**: Cryptanalysis of AES, authenticated encryption
 
 ## Professional Experience
 
-### Ladduu AI
-**Co-Founder & CTO**
-*| New York, NY | April 2025 - Present*
+### Zone
+**Co-Founder (Product & Engineering)**
+*| Palo Alto, CA | 2025 - Present*
 
-- Building agentic care for senior citizens by helping them with digital & physical tasks, social connection.
-- Built multilingual voice assistant for iOS that can execute actions.
-- Designed and implemented a WhatsApp assistant supporting over 8 Indian languages, providing the first taste of AI for thousands of Indians over age 45.
+- Building a messaging platform with ambient intelligence that automatically extracts and completes tasks
+- Leading product and engineering to create AI agents that enhance human-to-human communication
+- Developing ambient AI systems that understand context and execute actions without explicit commands
+- Visit us at [trymyzone.com](https://trymyzone.com/)
+
+### Ladduu AI (Pivoted to Zone)
+**Co-Founder & CTO**
+*| 2024 - 2025*
+
+- Built multilingual voice and WhatsApp assistants for seniors and families
+- Reached 5,000+ users with WhatsApp assistant supporting 8+ Indian languages
+- Discovered key insight: enhancing human communication matters more than isolated task completion
+- This learning led to pivot to Zone, bringing ambient AI to everyone's messaging
 
 ### Skylink (Y-Combinator W22)
 **Founding Machine Learning (AI/ML) Engineer**
-*| New York, NY | July 2023 - May 2025*
+*| New York, NY | July 2023 - June 2025*
 - Lead ML team of 6 in building AI-driven travel agent for corporate travel using Large Language Models (LLMs).
 - Engineered LLM-based agent orchestration system driving $3M ARR through enterprise deployment (40k+ users).
 - Spearheaded core AI development resulting in [BTN Innovation Faceoff 2024 award](https://sourya.page.link/btnaward).
@@ -79,8 +90,9 @@ AI/ML Engineer with expertise in:
 **Co-Founder & Chief Technology Officer**
 *| Andhra Pradesh, India | May 2021 - August 2022*
 
-- Led Product team of 7 in developing speech-enabled hyperlocal e-commerce apps for over 300 users.
-- Engineered multi-lingual SaaS mobile/web apps (Kotlin, NodeJS, ReactJS) generating 6-figure ARR per customer.
+- Led Product team of 7 in developing speech-enabled hyperlocal e-commerce apps for over 300 users
+- Engineered multi-lingual SaaS mobile/web apps (Kotlin, NodeJS, ReactJS) generating 6-figure ARR per customer
+- Early exploration of voice-first interfaces that informed later work on consumer AI
 
 ### de.ci.phe.red Lab, IIT Bhilai
 **External Collaborator (Information Security)**

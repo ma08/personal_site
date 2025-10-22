@@ -12,6 +12,11 @@ I use a fork of the PaperMod theme with some customizations (mainly to fix some 
 1. Start ngrok: `./scripts/run-ngrok.sh`
 2. Start Hugo server: `./scripts/run-local.sh`
 
+## Deploying to AWS S3
+```bash
+./scripts/deploy-to-s3.sh
+```
+
 
 ## Scratchpad for Useful Commands
 
