@@ -1,0 +1,21 @@
+{
+  "IndexDocument": {
+    "Suffix": "index.html"
+  },
+  "ErrorDocument": {
+    "Key": "404.html"
+  },
+  "RoutingRules": [
+    {
+      "Condition": {
+        "KeyPrefixEquals": "skylink-mckinsey"
+      },
+      "Redirect": {
+        "Protocol": "https",
+        "HostName": "www.mckinsey.com",
+        "ReplaceKeyWith": "about-us/new-at-mckinsey-blog/flying-higher-the-ai-upgrade-simplifying-mckinsey-travel",
+        "HttpRedirectCode": "301"
+      }
+    }
+  ]
+}

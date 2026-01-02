@@ -68,6 +68,7 @@ Although this isn't directly related to Meta, this tight curation lays the basel
 
 ### 2020–2021: App Tracking Transparency (ATT) is the big rupture.
 > "Apple has every incentive to use their dominant platform position to interfere with how our apps work."  - [Mark Zuckerberg (Jan 2021 earnings call)](https://www.fool.com/earnings/call-transcripts/2021/01/28/facebook-fb-q4-2020-earnings-call-transcript/)
+
 Apple’s iOS 14.5 tracking prompts limited cross‑app tracking (IDFA). Meta later estimated the impact at about $10B in 2022.
 
 ### 2022: Apple expands fees to "boosted posts."

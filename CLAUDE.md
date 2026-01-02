@@ -25,3 +25,31 @@
 ## Configuration
 - Settings in `hugo.yaml` at project root
 - Follow existing indentation pattern
+
+## URL Redirects (S3-based)
+For external URL redirects (e.g., `sourya.co/shortlink` → external site):
+
+### Adding a New Redirect
+1. Edit `/scripts/s3-redirect-rules.json`
+2. Add a new rule to the `RoutingRules` array:
+   ```json
+   {
+     "Condition": {
+       "KeyPrefixEquals": "your-shortlink"
+     },
+     "Redirect": {
+       "Protocol": "https",
+       "HostName": "destination-domain.com",
+       "ReplaceKeyWith": "path/to/page",
+       "HttpRedirectCode": "301"
+     }
+   }
+   ```
+3. Run `/scripts/configure-s3-redirects.sh` to apply changes
+4. Invalidate CloudFront cache if needed
+
+### Notes
+- Redirects are configured at the S3 bucket level
+- Uses 301 (permanent redirect) status code for SEO
+- Changes require running the configuration script
+- CloudFront cache invalidation may be needed for immediate effect
