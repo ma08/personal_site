@@ -30,7 +30,8 @@ Navigate to different sections or explore related pages:
 
 ## Summary
 
-AI/ML Engineer and founder building magical consumer experiences through ambient intelligence. Currently Co-founder at Zone, creating messaging platform that automatically understands and completes tasks.
+AI/ML Engineer and founder who loves being at the forefront of applying research for real-world impact. Currently Co-founder at Zone, creating **AI Operations Managers** for the industrial sector.
+
 
 Core expertise:
 - **Large Language Models (LLMs)**: Ambient AI agents, orchestration systems, evals
@@ -41,13 +42,14 @@ Core expertise:
 ## Professional Experience
 
 ### Zone
-**Co-Founder (Product & Engineering)**
+**Co-Founder & CTO**
 *| Palo Alto, CA | 2025 - Present*
 
-- Building a messaging platform with ambient intelligence that automatically extracts and completes tasks
-- Leading product and engineering to create AI agents that enhance human-to-human communication
-- Developing ambient AI systems that understand context and execute actions without explicit commands
-- Visit us at [trymyzone.com](https://trymyzone.com/)
+- Building **AI Operations Managers** for the industrial sector to automate physical workflows.
+- Pivoted from consumer messaging to B2B after validating ambient agent architecture with 3,800+ users.
+- Leading engineering for Multimodal Ambient Agents that understand physical context.
+- Read our origin story at [trymyzone.com/origins](https://trymyzone.com/origins).
+- Check out our solutions at [solutions.trymyzone.com](https://solutions.trymyzone.com/).
 
 ### Ladduu AI (Pivoted to Zone)
 **Co-Founder & CTO**

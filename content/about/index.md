@@ -9,7 +9,8 @@ showReadingTime: false
 
 ## Hi, I'm Sourya Kakarla
 
-I'm an AI/ML engineer and founder building holistic consumer experiences. As Co-founder of [Zone](https://trymyzone.com), I'm reimagining how messaging platforms can automatically understand context and complete tasks for you, going beyond simple to-do lists to actually getting work done.
+I'm an AI/ML engineer and founder who loves being at the forefront of applying research for real-world impact. As Co-founder of [Zone](https://trymyzone.com), I'm reimagining operations with **AI Operations Managers** for industrial sectors. Check out our **[Solutions Page](https://solutions.trymyzone.com/)** to see our product offerings.
+
 
 Life has made me go through quite a number of twists and turns that took me from big tech to dropping out of PhD to finally finding my grove at startups. Designing agent orchestration and eval systems for real world agents that can go beyond cool demos. I have a [research background](https://scholar.google.com/citations?user=iW7jiUcAAAAJ) in Speech&NLP and InfoSec. Alum of IIT Kharagpur and Columbia University.
 
@@ -19,9 +20,22 @@ You can view my full resume [here](/resume/).
 
 ## Founding Journey
 
-### Zone Text
+### Zone
+Zone is an **AI Operations Manager for the industrial sector**.
 
-Zone is an AI-native messaging platform that solves the problem of actionable items getting lost in long chats. Unlike WhatsApp or iMessage, Zone embeds ambient intelligence to proactively handle reminders, take notes, segment lists, schedule meetings, and more understanding context and taking the right actions like a skilled executive assistant would. Messaging reimagined for the AGI era.
+We are building Multimodal Ambient Agents for Physical Operations.
+
+
+#### The Journey
+Our path to Zone has been one of discovery:
+1.  **The Problem**: We saw how AI assistants failed bilingual, multigenerational families.
+2.  **The Experiment**: We built a WhatsApp assistant for our own family.
+3.  **The Validation**: Thousands adopted it, proving the need.
+4.  **The Foundation**: We built the Zone app, an ambient agent for families.
+5.  **The Signal**: B2B interest skyrocketed for our Ambient Agent Architecture.
+6.  **The Pivot**: We realized the need for agents beyond the screen - **Physical Intelligence**.
+
+Read our full story at **[Zone Origins](https://trymyzone.com/origins)**.
 
 Visit us at [trymyzone.com](https://trymyzone.com/)
 
@@ -135,9 +149,13 @@ Once I got the startup bug, I read a few of the typical startup books:
 - Outliers
 
 #### Currently Reading
-Finished [The Beginning of Infinity](https://www.goodreads.com/book/show/10483171-the-beginning-of-infinity) by David Deutsch - a mind-expanding exploration of explanations and progress.
+Currently reading [The Infinite Game](https://www.goodreads.com/book/show/38390751-the-infinite-game) by Simon Sinek.
 
-Currently reading [Steve Jobs](https://www.goodreads.com/book/show/11084145-steve-jobs) by Walter Isaacson - diving into the story of building magical consumer products that changed the world.
+#### Recently Completed
+- [Steve Jobs](https://www.goodreads.com/book/show/11084145-steve-jobs) by Walter Isaacson
+- [Elon Musk](https://www.goodreads.com/book/show/61392261-elon-musk) by Walter Isaacson
+- [The Rule of One](https://www.goodreads.com/book/show/52206867-the-rule-of-one) by Ashley & Leslie Saunders
+- [Masters of Scale](https://www.goodreads.com/en/book/show/57005189-masters-of-scale) by Reid Hoffman
 
 Jotted down some of my reads in [goodreads](https://www.goodreads.com/user/show/181795910-sourya-kakarla). TODO: Update it.
 
