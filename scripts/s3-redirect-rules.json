@@ -8,6 +8,17 @@
   "RoutingRules": [
     {
       "Condition": {
+        "KeyPrefixEquals": "demos"
+      },
+      "Redirect": {
+        "Protocol": "https",
+        "HostName": "sourya.co",
+        "ReplaceKeyWith": "ships/",
+        "HttpRedirectCode": "301"
+      }
+    },
+    {
+      "Condition": {
         "KeyPrefixEquals": "skylink-mckinsey"
       },
       "Redirect": {

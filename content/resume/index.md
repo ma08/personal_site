@@ -65,7 +65,7 @@ Core expertise:
 *| New York, NY | July 2023 - June 2025*
 - Lead ML team of 6 in building AI-driven travel agent for corporate travel using Large Language Models (LLMs).
 - Engineered LLM-based agent orchestration system driving $3M ARR through enterprise deployment (40k+ users).
-- Spearheaded core AI development resulting in [BTN Innovation Faceoff 2024 award](https://sourya.page.link/btnaward).
+- Spearheaded core AI development resulting in [BTN Innovation Faceoff 2024 award](https://www.businesstravelnews.com/Technology/AI-Agent-SkyLink-Wins-BTN-2024-Innovation-Faceoff).
 
 ### Columbia University
 **Teaching Assistant (TA)**
@@ -78,7 +78,7 @@ Core expertise:
 *New York, NY | March 2022 - January 2023*
 
 - Partnered with [Prof. André Corrêa d'Almeida](https://www.sipa.columbia.edu/communities-connections/faculty/andre-correa-dalmeida) in transforming initial idea to client-facing MVP in < 3 months.
-- Single-handedly built analytics dashboard for raw LinkedIn data to monitor industry-specific postings using NLP techniques in Python, spaCy, Tableau. Recognized as [Columbia Tech Ventures invention](https://sourya.page.link/ctv).
+- Single-handedly built analytics dashboard for raw LinkedIn data to monitor industry-specific postings using NLP techniques in Python, spaCy, Tableau. Recognized as [Columbia Tech Ventures invention](https://innovation.columbia.edu/technologies/CU22330_internet-of-things-job-market).
 - Executed GTM strategy for NYC DOT, Niteroi City, NYC Mayor's Office achieving > 95% client satisfaction rate.
 
 ### Fusemachines Inc.
@@ -168,36 +168,36 @@ TODO: Update this more.
 
 ## Publications
 
-View my [Google Scholar profile](https://sourya.page.link/scholar) for the most up-to-date list of publications.
+View my [Google Scholar profile](https://scholar.google.com/citations?user=iW7jiUcAAAAJ&hl=en&oi=ao) for the most up-to-date list of publications.
 
 ### Journal Articles & Preprints
 
-1.  [**Looney Tunes: Exposing the Lack of DRM Protection in Indian Music Streaming Services**](https://sourya.page.link/looney) 
+1.  [**Looney Tunes: Exposing the Lack of DRM Protection in Indian Music Streaming Services**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iW7jiUcAAAAJ&citation_for_view=iW7jiUcAAAAJ:zYLM7Y9cAGgC) 
   - Ahaan Dabholkar, **Sourya Kakarla**, Dhiman Saha
   - Arxiv Pre-print (In Review)
    
 
-2. [**DINAMITE: Internal Differential Match-in-the-end Attack on 8-round PAEQ**](https://sourya.page.link/dinamite) 
+2. [**DINAMITE: Internal Differential Match-in-the-end Attack on 8-round PAEQ**](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-ifs.2018.5033) 
   - Dhiman Saha, **Sourya Kakarla**, Dipanwita Roy Chowdhury
   - IET Information Security (2019)
    
 
-3. [**Gain: Practical Key-Recovery Attacks on Round-reduced PAEQ**](https://sourya.page.link/hass)
+3. [**Gain: Practical Key-Recovery Attacks on Round-reduced PAEQ**](https://link.springer.com/article/10.1007/s41635-017-0010-5)
   - Dhiman Saha, **Sourya Kakarla**, Srinath Mandava, Dipanwita Roy Chowdhury
   - Journal of Hardware and Systems Security (HaSS 2017)
    
 
 ### Conference Proceedings
 
-1. [**On the practical implementation of impossible differential cryptanalysis on reduced-round AES**](https://sourya.page.link/aes)
+1. [**On the practical implementation of impossible differential cryptanalysis on reduced-round AES**](https://link.springer.com/chapter/10.1007/978-981-10-5421-1_6)
   - **Sourya Kakarla**, Srinath Mandava, Dhiman Saha, Dipanwita Roy Chowdhury
   - International Conference on Applications and Techniques in Information Security (ATIS 2017)
 
-2. [**Gain: Practical Key-Recovery Attacks on Round-reduced PAEQ**](https://sourya.page.link/gain)
+2. [**Gain: Practical Key-Recovery Attacks on Round-reduced PAEQ**](https://link.springer.com/chapter/10.1007/978-3-319-49445-6_11)
   - Dhiman Saha, **Sourya Kakarla**, Srinath Mandava, Dipanwita Roy Chowdhury
   - Security, Privacy, and Applied Cryptography Engineering (SPACE 2016)
 
-3. [**Stop clickbait: Detecting and preventing clickbaits in online news media**](https://sourya.page.link/clickbait)
+3. [**Stop clickbait: Detecting and preventing clickbaits in online news media**](https://ieeexplore.ieee.org/abstract/document/7752207)
   - Abhijnan Chakraborty, Bhargavi Paranjape, **Sourya Kakarla**, Niloy Ganguly
   - Advances in Social Networks Analysis and Mining (ASONAM 2016)
   - **Best Paper Award**
@@ -206,12 +206,12 @@ View my [Google Scholar profile](https://sourya.page.link/scholar) for the most 
 ## Awards and Recognition
 
 - **Andrew P. Kosoresow Memorial Award for Excellence in Teaching and Service**, Columbia University (2023)
--  [**Invention** recognized](https://sourya.page.link/ctv) by Columbia Tech Ventures: *Employment Insights Dashboard* (2022)
+-  [**Invention** recognized](https://innovation.columbia.edu/technologies/CU22330_internet-of-things-job-market) by Columbia Tech Ventures: *Employment Insights Dashboard* (2022)
 - **Nominated for Prime Minister's Research Fellows**: Selected for final round (placed in top 6 CS students) (2020)
 - **Nominated for Best Master's Thesis**: *Cryptanalysis of AES and AES based ciphers*, IIT Kharagpur (2017)
-- **National media coverage**: *IIT team builds solution that weeds out 'clickbait' headlines* ([source](https://sourya.page.link/hindu)) (2016)
-- [**Best Paper**](https://sourya.page.link/bestpaper), ASONAM 2016 Conference: *Stop Clickbait* paper (2016)
-- [**Winner**](https://sourya.page.link/ibmday), IBM DAY 2016 - IIT Kharagpur exhibition/contest (2016)
+- **National media coverage**: *IIT team builds solution that weeds out 'clickbait' headlines* ([source](https://web.archive.org/web/20201108142627/https://www.thehindu.com/sci-tech/technology/IIT-team-builds-solution-that-weeds-out-%E2%80%98clickbait%E2%80%99-headlines/article16437688.ece)) (2016)
+- [**Best Paper**](https://dl.acm.org/doi/proceedings/10.5555/3192424?tocHeading=heading1), ASONAM 2016 Conference: *Stop Clickbait* paper (2016)
+- [**Winner**](https://cse.iitkgp.ac.in/conf/IBM/#winners), IBM DAY 2016 - IIT Kharagpur exhibition/contest (2016)
 - **Winner**, Microsoft's Code.Fun.Do Finalist Forum nationwide hackathon, India (2015)
 - **Winner**, Microsoft's Code.Fun.Do hackathon, IIT Kharagpur chapter (2015)
 - **Runner-up**, IBM's Global Entrepreneurship Summit hackathon, IIT Kharagpur (2015)

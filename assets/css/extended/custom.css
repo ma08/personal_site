@@ -1,54 +1,409 @@
-/* Import Lora font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+/* ============================================
+   SOURYA'S PERSONAL WEBSITE - SCHOLARLY FUSION
+   Design: Saffron & Ink with Fusion Watermarks
+   ============================================ */
 
-/* Set Lora as the default font for the body */
+/* ----------------------------------------
+   TYPOGRAPHY - Google Fonts Import
+   ---------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;500;600;700&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+/* ----------------------------------------
+   COLOR PALETTE - Saffron & Ink
+   Light Mode (default)
+   ---------------------------------------- */
+:root {
+    /* Core colors */
+    --theme: #FFFFFF;            /* Pure white background */
+    --entry: #FFFFFF;           /* Card/entry background */
+    --primary: #1A1A1A;         /* Deep charcoal - headings */
+    --secondary: #4A4A4A;       /* Muted charcoal - secondary text */
+    --tertiary: #E5E0D8;        /* Warm beige - borders, buttons */
+    --content: #2C2C2C;         /* Body text - slightly lighter than primary */
+
+    /* Accent colors */
+    --accent: #C05746;          /* Terracotta */
+    --accent-hover: #A84637;    /* Darker terracotta */
+    --accent-light: rgba(192, 87, 70, 0.1); /* Subtle terracotta tint */
+
+    /* Code blocks */
+    --code-block-bg: #1C1B1A;   /* Dark warm charcoal for code */
+    --code-bg: #F5F5F5;         /* Neutral light gray for inline code */
+    --border: #E5E0D8;          /* Warm beige borders */
+
+    /* Typography */
+    --font-heading: 'Inknut Antiqua', Georgia, serif;
+    --font-body: 'Vollkorn', Georgia, serif;
+    --font-mono: 'IBM Plex Mono', 'Consolas', monospace;
+
+    /* Spacing refinements */
+    --gap: 28px;
+    --content-gap: 24px;
+    --radius: 6px;
+}
+
+/* ----------------------------------------
+   COLOR PALETTE - Dark Mode
+   ---------------------------------------- */
+.dark {
+    --theme: #1C1B1A;           /* Deep warm charcoal */
+    --entry: #252321;           /* Slightly lighter for cards */
+    --primary: #F5F0E8;         /* Warm cream - headings */
+    --secondary: #B8B2A8;       /* Muted warm gray */
+    --tertiary: #3A3836;        /* Dark warm border */
+    --content: #E0DBD3;         /* Body text */
+
+    /* Accent colors - adjusted for dark */
+    --accent: #D4705F;          /* Lighter terracotta for contrast */
+    --accent-hover: #E8887A;    /* Even lighter on hover */
+    --accent-light: rgba(212, 112, 95, 0.15);
+
+    /* Code blocks */
+    --code-block-bg: #2A2826;
+    --code-bg: #2A2826;
+    --border: #3A3836;
+}
+
+/* ----------------------------------------
+   TYPOGRAPHY SYSTEM
+   ---------------------------------------- */
+
+/* Base body typography */
 body {
-    font-family: 'Lora', serif;
-    background-image: url('/images/background-light.svg'); /* Default/Light mode */
-    background-size: cover; /* Cover the entire page */
-    background-attachment: fixed; /* Keep the background fixed during scroll */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    font-family: var(--font-body);
+    font-size: 18px;
+    line-height: 1.75;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-body.dark {
-    background-image: url('/images/background-dark.svg'); /* Dark mode */
+/* Headings - Inknut Antiqua */
+h1, h2, h3, h4, h5, h6,
+.post-title,
+.profile .profile_inner h1 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
 }
 
-/* Optional: Add some transparency/subtleness if needed */
-/* You might need to wrap your main content in a container and apply background color to it */
-/* body {
-    background-color: rgba(255, 255, 255, 0.8); /* Light mode background color with opacity * /
+h1, .post-title {
+    font-size: 2.25rem;
+    font-weight: 700;
 }
 
-body.dark {
-     background-color: rgba(0, 0, 0, 0.8); /* Dark mode background color with opacity * /
-} */
-
-/* Ensure content is readable over the background */
-/* Adjust text colors if necessary, or add a semi-transparent overlay to the content area */
-
-/* Example for content area if you wrap it */
-/* .main-content-wrapper {
-    background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque white background for light mode * /
-    padding: 20px;
-    border-radius: 8px;
+h2 {
+    font-size: 1.75rem;
+    margin-top: 2.5rem;
 }
 
-body.dark .main-content-wrapper {
-    background-color: rgba(25, 25, 25, 0.9); /* Slightly opaque dark background for dark mode * /
-    color: #ccc; /* Adjust text color for dark mode if needed * /
-} */ 
+h3 {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
 
+h4, h5, h6 {
+    font-size: 1.15rem;
+}
+
+/* Profile/Home title */
+.profile .profile_inner h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* Site logo/header */
+.logo a {
+    font-family: var(--font-heading);
+    font-weight: 600;
+}
+
+/* Navigation */
+#menu a {
+    font-family: var(--font-body);
+    font-weight: 500;
+}
+
+/* Code typography */
+code, pre, .highlight code {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+}
+
+pre {
+    line-height: 1.5;
+}
+
+/* Blockquotes */
+blockquote {
+    font-style: italic;
+    border-left: 3px solid var(--accent);
+    padding-left: 1.5rem;
+    margin: 1.5rem 0;
+    color: var(--secondary);
+}
+
+blockquote p {
+    margin: 0;
+}
+
+/* ----------------------------------------
+   LINK STYLING
+   ---------------------------------------- */
+
+/* Content links */
+.post-content a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+    transition: color 0.2s ease;
+}
+
+.post-content a:hover {
+    color: var(--accent-hover);
+}
+
+/* Profile subtitle links */
 .profile .profile_inner span a {
-    text-decoration: underline; /* Add underline */
-    /* Optional: Uncomment the line below to give the link a different color */
-    /* color: #your-preferred-color; */ 
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
-/* Optional: Add hover effect */
 .profile .profile_inner span a:hover {
-    text-decoration: none; /* Remove underline on hover */
-    /* Optional: Uncomment the line below to change color on hover */
-    /* color: #your-preferred-hover-color; */
+    color: var(--accent-hover);
+    text-decoration: none;
+}
+
+/* ----------------------------------------
+   ENTRY CARDS & POSTS
+   ---------------------------------------- */
+
+.post-entry {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.post-entry:hover {
+    border-color: var(--accent);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.dark .post-entry:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Entry title */
+.entry-header h2 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+}
+
+/* ----------------------------------------
+   BUTTONS & INTERACTIVE
+   ---------------------------------------- */
+
+/* Profile buttons */
+.button {
+    font-family: var(--font-body);
+    font-weight: 500;
+    border-radius: var(--radius);
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.button:hover {
+    background: var(--accent);
+    color: white;
+}
+
+/* Back to top button */
+#top-link {
+    background: var(--accent);
+    border-radius: 50%;
+}
+
+#top-link:hover {
+    background: var(--accent-hover);
+}
+
+/* ----------------------------------------
+   INLINE CODE & CODE BLOCKS
+   ---------------------------------------- */
+
+code:not([class*="language-"]) {
+    background: var(--code-bg);
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-size: 0.88em;
+}
+
+.highlight pre {
+    border-radius: var(--radius);
+}
+
+/* ----------------------------------------
+   TABLE OF CONTENTS
+   ---------------------------------------- */
+
+.toc a {
+    color: var(--secondary);
+    transition: color 0.2s ease;
+}
+
+.toc a:hover {
+    color: var(--accent);
+}
+
+/* ----------------------------------------
+   FOOTER
+   ---------------------------------------- */
+
+footer {
+    font-size: 0.9rem;
+    color: var(--secondary);
+}
+
+/* ----------------------------------------
+   BACKGROUND TEXTURES - AI Generated
+   Generated with Nano Banana Pro (Gemini 3 Pro Image)
+   Using pseudo-element for opacity control
+   ---------------------------------------- */
+
+/* Base background color - override PaperMod's .list using --code-bg */
+body,
+body.list,
+.list {
+    background-color: #FFFFFF !important;
+    background: #FFFFFF !important;
+    position: relative;
+}
+
+body.dark,
+body.dark.list,
+.dark.list {
+    background-color: #1C1B1A !important;
+    background: #1C1B1A !important;
+}
+
+/* Background texture - AI Generated with Nano Banana Pro */
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url('/images/bg-light.png');
+    background-size: 600px;
+    background-position: center;
+    background-repeat: repeat;
+    opacity: 0.10;
+    pointer-events: none;
+    z-index: -1;
+}
+
+body.dark::before {
+    background-image: url('/images/bg-dark.png');
+    opacity: 0.06;
+}
+
+/* ----------------------------------------
+   HEADER/NAV - Above background layer
+   ---------------------------------------- */
+
+header.header {
+    position: relative;
+    z-index: 10;
+    background-color: var(--theme);
+}
+
+.nav {
+    position: relative;
+    z-index: 10;
+}
+
+/* Logo and menu should be fully visible */
+.logo,
+#menu {
+    position: relative;
+    z-index: 11;
+}
+
+/* ----------------------------------------
+   LAYOUT REFINEMENTS
+   ---------------------------------------- */
+
+/* Generous margins for manuscript feel */
+.main {
+    max-width: var(--main-width);
+    margin: 0 auto;
+    padding: 0 var(--gap);
+    position: relative;
+    z-index: 1;
+}
+
+/* Gradient glow that fades texture at content edges */
+.main::after {
+    content: '';
+    position: absolute;
+    inset: -80px;
+    background: radial-gradient(ellipse 70% 80% at center,
+        #FFFFFF 50%,
+        rgba(255,255,255,0.8) 65%,
+        rgba(255,255,255,0) 100%);
+    z-index: -1;
+    pointer-events: none;
+}
+
+.dark .main::after {
+    background: radial-gradient(ellipse 70% 80% at center,
+        #1C1B1A 50%,
+        rgba(28,27,26,0.8) 65%,
+        rgba(28,27,26,0) 100%);
+}
+
+/* Post content spacing */
+.post-content {
+    margin-top: 2rem;
+}
+
+.post-content p {
+    margin-bottom: 1.5rem;
+}
+
+.post-content ul,
+.post-content ol {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.post-content li {
+    margin-bottom: 0.5rem;
+}
+
+/* ----------------------------------------
+   SELECTION HIGHLIGHT
+   ---------------------------------------- */
+
+::selection {
+    background: var(--accent-light);
+    color: var(--primary);
+}
+
+.dark ::selection {
+    background: var(--accent-light);
+    color: var(--primary);
+}
+
+/* ----------------------------------------
+   SMOOTH TRANSITIONS
+   ---------------------------------------- */
+
+body,
+.post-entry,
+a,
+button {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }

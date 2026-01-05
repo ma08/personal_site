@@ -27,8 +27,8 @@ params:
         url: "/about"
       - name: Blog
         url: "/blog"
-      - name: Demos
-        url: "/demos"
+      - name: Ships
+        url: "/ships"
 
   homeInfoParams:
     Title: "Sourya Kakarla - AI/ML Engineer"
@@ -42,7 +42,7 @@ params:
     - name: GitHub
       url: "https://github.com/ma08"
     - name: GoogleScholar
-      url: "https://sourya.page.link/scholar"
+      url: "https://scholar.google.com/citations?user=iW7jiUcAAAAJ&hl=en&oi=ao"
     - name: Email
       url: "mailto:sourya.kakarla@columbia.edu"
 
@@ -74,9 +74,9 @@ menu:
       name: Blog
       url: /blog
       weight: 30
-    - identifier: demos
-      name: Demos
-      url: /demos
+    - identifier: ships
+      name: Ships
+      url: /ships
       weight: 40
     - identifier: resume
       name: Resume
